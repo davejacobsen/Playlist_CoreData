@@ -16,6 +16,8 @@
 		D5331AA324102738006728B1 /* Playlist+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5331AA224102738006728B1 /* Playlist+Convenience.swift */; };
 		D5331AA5241028A4006728B1 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5331AA4241028A4006728B1 /* CoreDataStack.swift */; };
 		D5331AA724102F19006728B1 /* Song+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5331AA624102F19006728B1 /* Song+Convenience.swift */; };
+		D5331AA924103368006728B1 /* PlaylistController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5331AA824103368006728B1 /* PlaylistController.swift */; };
+		D5331AAB24103A36006728B1 /* SongController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5331AAA24103A36006728B1 /* SongController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		D5331AA224102738006728B1 /* Playlist+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Playlist+Convenience.swift"; sourceTree = "<group>"; };
 		D5331AA4241028A4006728B1 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		D5331AA624102F19006728B1 /* Song+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Song+Convenience.swift"; sourceTree = "<group>"; };
+		D5331AA824103368006728B1 /* PlaylistController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlaylistController.swift; path = PlaylistCoredata/Model/PlaylistController.swift; sourceTree = SOURCE_ROOT; };
+		D5331AAA24103A36006728B1 /* SongController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SongController.swift; path = PlaylistCoredata/Model/SongController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +117,8 @@
 		3E1DF47323F322A30002BC07 /* Model Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				D5331AA824103368006728B1 /* PlaylistController.swift */,
+				D5331AAA24103A36006728B1 /* SongController.swift */,
 			);
 			path = "Model Controllers";
 			sourceTree = "<group>";
@@ -197,10 +203,12 @@
 			files = (
 				D5331AA5241028A4006728B1 /* CoreDataStack.swift in Sources */,
 				3E1DF45923F3222E0002BC07 /* AppDelegate.swift in Sources */,
+				D5331AAB24103A36006728B1 /* SongController.swift in Sources */,
 				D5331AA724102F19006728B1 /* Song+Convenience.swift in Sources */,
 				3E1DF46323F3222E0002BC07 /* PlaylistCoredata.xcdatamodeld in Sources */,
 				3E1DF45B23F3222E0002BC07 /* SceneDelegate.swift in Sources */,
 				D5331AA324102738006728B1 /* Playlist+Convenience.swift in Sources */,
+				D5331AA924103368006728B1 /* PlaylistController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
