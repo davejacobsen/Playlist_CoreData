@@ -58,8 +58,8 @@
 			children = (
 				3E1DF47223F3229A0002BC07 /* Controllers */,
 				3E1DF47023F3224F0002BC07 /* Model */,
-				3E1DF46F23F3223E0002BC07 /* Resources */,
 				3E1DF47123F3228E0002BC07 /* Views */,
+				3E1DF46F23F3223E0002BC07 /* Resources */,
 			);
 			path = PlaylistCoredata;
 			sourceTree = "<group>";
